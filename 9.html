@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPW 11.9</title>
+</head>
+<body>
+    <script>
+        var a = 5;
+        var b = 3;
+        console.log(a + b);
+
+        a = "10" + "2";
+        console.log(a);
+
+
+
+        document.write("Mula-mula nilai skor...<br>");
+
+        var score = 100;
+        document.write("skor = "+ score + "<br>");
+
+        score += 5;
+        document.write("skor = "+ score + "<br>");
+
+        score -= 2;
+        document.write("skor = "+ score + "<br>");
+
+        score *= 2;
+        document.write("skor = "+ score + "<br>");
+
+        score /= 4;
+        document.write("skor = "+ score + "<br>");
+
+        score **= 2;
+        document.write("skor = "+ score + "<br>");
+
+        score %= 3;
+        document.write("skor = "+ score + "<br><br>");
+
+
+
+        var aku = 20;
+        var kamu = 19;
+
+        var hasil = aku == kamu;
+        document.write(`${aku} == ${kamu} = ${hasil}<br>`);
+
+        var hasil = aku > kamu;
+        document.write(`${aku} > ${kamu} = ${hasil}<br>`);
+
+        var hasil = aku >= kamu;
+        document.write(`${aku} >= ${kamu} = ${hasil}<br>`);
+
+        var hasil = aku < kamu;
+        document.write(`${aku} < ${kamu} = ${hasil}<br>`);
+
+        var hasil = aku <= kamu;
+        document.write(`${aku} <= ${kamu} = ${hasil}<br>`);
+
+        var hasil = aku != kamu;
+        document.write(`${aku} != ${kamu} = ${hasil}<br><br>`);
+
+
+
+        console.log("4" == 4);
+        console.log("4" === 4);
+
+
+
+        var benar = aku > kamu;
+        var salah = aku < kamu;
+
+        var hasil = benar && salah;
+        document.write(`${benar} && ${salah} = ${hasil}<br>`);
+
+        var hasil = benar || salah;
+        document.write(`${benar} || ${salah} = ${hasil}<br>`);
+
+        var hasil = !benar;
+        document.write(`!${benar} = ${hasil}<br><br>`);
+
+
+
+        var x = 4;
+        var y = 3;
+
+        var hasil = x & y;
+        document.write(`${x} & ${y} = ${hasil} <br>`);
+
+        var hasil = x | y;
+        document.write(`${x} | ${y} = ${hasil} <br>`);
+
+        var hasil = x ^ y;
+        document.write(`${x} ${y} = ${hasil}<br>`);
+
+        var hasil = ~x;
+        document.write(`~${x} = ${hasil}<br>`);
+
+        var hasil = x >> y;
+        document.write(`${x} >> ${y} = ${hasil}<br>`);
+
+        var hasil = x << y;
+        document.write(`${x} << ${y} = ${hasil} <br>`);
+
+        var hasil = x >>> y;
+        document.write(`${x} >>> ${y} = ${hasil} <br>`);
+
+
+
+        var pertanyaan = confirm("Apakah kamu diatas 18?");
+        var hasil = pertanyaan ? "Selamat datang" : "Kamu tidak boleh di sini"
+        alert(hasil)
+    </script>
+</body>
+</html>
